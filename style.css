@@ -1,0 +1,52 @@
+.hero_content{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+     background: woodblur(255, 69, 72, 0.873);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar-brand img {
+    height: 10px; /* Adjust height here */
+    width: 10pc;  /* Maintain aspect ratio */
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links li {
+    margin-left: 20px;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.navbar-links a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+.rm{
+     text-decoration: none;
+      color: black;;
+}
